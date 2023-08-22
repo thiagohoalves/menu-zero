@@ -28,43 +28,45 @@ const navLinks = [
 
 const Header = () => {
 
-    const menuRef = useRef()
+    const menuRef = useRef();
 
-    const menuToggle = () => menuRef.current.classlist.toggle('active__menu')
+    const menuToggle = () => menuRef.current.classlist.toggle("active__menu");
 
     return (
         <header className="header">
             <Container>
                 <div className="navigation">
                     <div className="logo">
-                        <h2 d-flex align-items-center gap-1>
+                        <h2 className=" d-flex align-items-center gap-1">
                             <span>
-                                <i class="ri-restaurant-2-line"></i></span> Chef Food
+                                <i class="ri-restaurant-2-line"></i>
+                            </span>{" "}
+                            Chef Food
                         </h2>
                     </div>
 
                     <div className="nav__menu" ref={menuRef}>
 
-                        <div className="nav__list__wrapper d-flex align-items-center">
+                        <div className="nav__list__wrapper d-flex align-items-center gap-5">
                             <ul className="nav__list">
-                                {
-                                    navLinks.map((item, index) => (
-                                        <li className="nav__item" key={index}>
-                                            <a href={item.url} onClick={menuToggle}>
-                                                {item.display}</a>
-                                        </li>
-                                    ))
-                                }
+                                {navLinks.map((item, index) => (
+                                    <li className="nav__item" key={index}>
+                                        <a href={item.url} onClick={menuToggle}>
+                                            {item.display}
+                                        </a>
+                                    </li>
+                                ))}
                             </ul>
 
                             <div className="menu__right">
                                 <div className="custom__search">
-                                    <input type="text" placeholder='search item...' />
-                                    <span><i class="ri-search-line"></i></span>
+                                    <input type="text" placeholder="search item..." />
+                                    <span>
+                                        <i class="ri-search-line"></i>
+                                    </span>
                                 </div>
                             </div>
                         </div>
-
                     </div>
 
                     <div>
@@ -76,7 +78,9 @@ const Header = () => {
                     </div>
 
                     <div className="mobile__menu">
-                        <span><i class="ri-menu-line" onClick={menuToggle}></i></span>
+                        <span>
+                            <i class="ri-menu-line" onClick={menuToggle}></i>
+                        </span>
                     </div>
                 </div>
             </Container>
