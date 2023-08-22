@@ -65,6 +65,30 @@
     display: none;
 }
 
+.cart__icon {
+    position: relative;
+    z-index: 999;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    background: #F76E11;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge {
+    position: absolute;
+    top: -2px;
+    right: -3px;
+    z-index: 1000;
+    color: #141124;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+/* RESPONSIVE */
+
 @media only screen and (max-width:992px) {
     .nav__menu {
         position: fixed;
@@ -117,11 +141,11 @@
         display: block;
     }
 
-    .logo h2{
+    .logo h2 {
         font-size: 1.5rem;
     }
 
-    .active__menu{
+    .active__menu {
         display: block;
     }
 }

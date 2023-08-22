@@ -30,7 +30,7 @@ const Header = () => {
 
     const menuRef = useRef()
 
-    const menuToggle = menuRef.current.classlist.toggle()
+    const menuToggle = () => menuRef.current.classlist.toggle('active__menu')
 
     return (
         <header className="header">
@@ -43,14 +43,15 @@ const Header = () => {
                         </h2>
                     </div>
 
-                    <div className="nav__menu">
+                    <div className="nav__menu" ref={menuRef}>
 
                         <div className="nav__list__wrapper d-flex align-items-center">
                             <ul className="nav__list">
                                 {
                                     navLinks.map((item, index) => (
                                         <li className="nav__item" key={index}>
-                                            <a href={item.url}>{item.display}</a>
+                                            <a href={item.url} onClick={menuToggle}>
+                                                {item.display}</a>
                                         </li>
                                     ))
                                 }
@@ -66,10 +67,16 @@ const Header = () => {
 
                     </div>
 
+                    <div>
+                        <span className="cart__icon">
+                            <i class="ri-shopping-basket-line"></i>
 
+                            <span className="badge">2</span>
+                        </span>
+                    </div>
 
                     <div className="mobile__menu">
-                        <span><i class="ri-menu-line"></i></span>
+                        <span><i class="ri-menu-line" onClick={menuToggle}></i></span>
                     </div>
                 </div>
             </Container>
