@@ -1,0 +1,32 @@
+.single__feature span {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ff766b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.single__feature span i{
+    font-size: 2rem;
+}
+
+.choose__content h4{
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.single__feature h6{
+    color: #f5b70a;
+    margin-bottom: 0;
+}
+
+.single__feature p {
+    font-size: 0.7rem;
+}
+
+.feature__icon-two {
+    background-color: #2ace92 !important;
+}

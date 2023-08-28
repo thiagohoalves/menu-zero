@@ -28,9 +28,9 @@ export const popularMenuFood = [
 
   {
     id: "03",
-    title: "Whipped Cream",
-    price: 45,
-    imgUrl: dessert02,
+    title: "Rainbow Cupcakes",
+    price: 15,
+    imgUrl: dessert03,
   },
 
   {

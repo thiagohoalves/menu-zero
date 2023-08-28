@@ -19,7 +19,7 @@ const HeroSlider = () => {
             <Slider { ...settings}>
                 {
                     sliderData.map(item => (
-                        <div>
+                        <div key={item.id}>
                             <div className="slider__wrapper d-flex align-items-center
                             justify-content-between pt-5">
                                 <div className="slider__content w-50 ps-2">
