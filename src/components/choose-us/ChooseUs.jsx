@@ -23,14 +23,14 @@ const ChooseUs = () => {
                             <div className="feature1 d-flex align-items-center gap-5">
                                 <div className="single__feature">
                                     <span>
-                                        <i class="ri-truck-line"></i>
+                                        <i class="ri-e-bike-2-line"></i>
                                     </span>
                                     <h6>Entrega grátis</h6>
                                     <p>Lorem ipsum dolor sit amet.</p>
                                 </div>
 
                                 <div className="single__feature">
-                                    <span className='feature__icon-two'>
+                                    <span className='feature__icon-2'>
                                         <i class="ri-money-dollar-circle-line"></i>
                                     </span>
                                     <h6>Cashback</h6>
@@ -40,18 +40,18 @@ const ChooseUs = () => {
 
                             <div className="feature1 mt-3 d-flex align-items-center gap-5">
                                 <div className="single__feature">
-                                    <span>
-                                        <i class="ri-truck-line"></i>
+                                    <span className='feature__icon-3'>
+                                        <i class="ri-bank-card-line"></i>
                                     </span>
-                                    <h6>Entrega grátis</h6>
+                                    <h6>Pagamento em cartão</h6>
                                     <p>Lorem ipsum dolor sit amet.</p>
                                 </div>
 
                                 <div className="single__feature">
-                                    <span className='feature__icon-two'>
-                                        <i class="ri-money-dollar-circle-line"></i>
+                                    <span className='feature__icon-4'>
+                                    <i class="ri-chat-1-line"></i>
                                     </span>
-                                    <h6>Cashback</h6>
+                                    <h6>Atendimento por chat</h6>
                                     <p>Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
