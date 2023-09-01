@@ -1,0 +1,30 @@
+.footer {
+    padding-bottom: 0;
+}
+
+.footer__link-title {
+    color: #fff;
+}
+
+.link__item {
+    border: none;
+    padding-left: 0;
+    background: transparent;
+    color: #c4c4c4;
+}
+
+.link__item a {
+    color: #c4c4c4;
+}
+
+.footer__bottom {
+    background: #141124;
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer__bottom p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}

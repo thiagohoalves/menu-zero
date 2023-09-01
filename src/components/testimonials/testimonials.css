@@ -1,0 +1,12 @@
+.single__testimonial h6{
+    color: #f5b70a;
+    font-size: 1.1rem;
+    text-align: right;
+
+}
+
+.single__testimonial p{
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.4rem;
+}
