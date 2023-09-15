@@ -8,10 +8,10 @@ const ChooseUs = () => {
         <section>
             <Container>
                 <Row>
-                    <Col lg='6'>
+                    <Col lg='6' md='6'>
                         <img src={pastaImg} alt="" className='w-100' />
                     </Col>
-                    <Col lg='6'>
+                    <Col lg='6' md='6'>
                         <div className="choose__content">
                             <h4>Quem somos?</h4>
                             <h2>Dê uma olhada nos benefícios que temos para você!</h2>
@@ -49,7 +49,7 @@ const ChooseUs = () => {
 
                                 <div className="single__feature">
                                     <span className='feature__icon-4'>
-                                    <i class="ri-chat-1-line"></i>
+                                        <i class="ri-chat-1-line"></i>
                                     </span>
                                     <h6>Atendimento por chat</h6>
                                     <p>Lorem ipsum dolor sit amet.</p>

@@ -2,6 +2,7 @@
     background: #141124;
     border-radius: 10px;
     cursor: pointer;
+    animation: animate 1s ease-in;
 }
 
 .single__product:hover {
@@ -22,7 +23,7 @@
     color: #f76e11;
 }
 
-.rating{
+.rating {
     margin-bottom: 10px;
 }
 
@@ -36,7 +37,7 @@
     font-weight: 500;
 }
 
-.shopping__icon{
+.shopping__icon {
     width: 30px;
     height: 30px;
     border-radius: 5px;
@@ -45,4 +46,30 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+@keyframes animate {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .product__content h6 {
+        font-size: 0.9rem;
+    }
+
+    .price {
+        font-size: 0.8rem;
+    }
+
+    .price span {
+        font-size: 0.9rem;
+    }
 }

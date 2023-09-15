@@ -30,7 +30,7 @@ const Header = () => {
 
     const menuRef = useRef();
 
-    const menuToggle = () => menuRef.current.classlist.toggle("active__menu");
+    const menuToggle = () => menuRef.current.classList.toggle("active__menu");
 
     return (
         <header className="header">
@@ -87,5 +87,6 @@ const Header = () => {
         </header>
     )
 };
+console.log();
 
 export default Header;

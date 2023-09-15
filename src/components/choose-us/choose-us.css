@@ -9,16 +9,16 @@
     margin-bottom: 10px;
 }
 
-.single__feature span i{
+.single__feature span i {
     font-size: 2rem;
 }
 
-.choose__content h4{
+.choose__content h4 {
     color: #fff;
     margin-bottom: 15px;
 }
 
-.single__feature h6{
+.single__feature h6 {
     color: #f5b70a;
     margin-bottom: 0;
 }
@@ -37,4 +37,28 @@
 
 .feature__icon-4 {
     background: #7865FF !important;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .choose__content h2 {
+        font-size: 1.5rem;
+    }
+
+    .choose__content h4 {
+        font-size: 1rem;
+    }
+
+    .choose__content p {
+        font-size: 0.8rem;
+    }
+    
+    .single__feature h6{
+        font-size: 0.9rem;
+    }
+
+    .single__feature p{
+        font-size: 0.6rem;
+    }
 }
