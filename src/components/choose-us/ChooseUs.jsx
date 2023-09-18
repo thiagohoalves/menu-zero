@@ -20,7 +20,7 @@ const ChooseUs = () => {
                         </div>
 
                         <div className="features mt-4">
-                            <div className="feature1 d-flex align-items-center gap-5">
+                            <div className="feature1 d-flex align-items-center gap-3">
                                 <div className="single__feature">
                                     <span>
                                         <i class="ri-e-bike-2-line"></i>
@@ -38,7 +38,7 @@ const ChooseUs = () => {
                                 </div>
                             </div>
 
-                            <div className="feature1 mt-3 d-flex align-items-center gap-5">
+                            <div className="feature1 mt-3 d-flex align-items-center gap-3">
                                 <div className="single__feature">
                                     <span className='feature__icon-3'>
                                         <i class="ri-bank-card-line"></i>

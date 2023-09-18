@@ -14,12 +14,12 @@
 }
 
 .choose__content h4 {
-    color: #fff;
+    color: var(--default-color);
     margin-bottom: 15px;
 }
 
 .single__feature h6 {
-    color: #f5b70a;
+    color: var(--primary-color);
     margin-bottom: 0;
 }
 
@@ -37,6 +37,10 @@
 
 .feature__icon-4 {
     background: #7865FF !important;
+}
+
+.single__feature {
+    width: 50%;
 }
 
 

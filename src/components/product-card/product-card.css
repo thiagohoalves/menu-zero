@@ -1,12 +1,12 @@
 .single__product {
-    background: #141124;
+    background: var(--secondary-color);
     border-radius: 10px;
     cursor: pointer;
     animation: animate 1s ease-in;
 }
 
 .single__product:hover {
-    box-shadow: 5px 5px 10px -5px #f5b70a;
+    box-shadow: 5px 5px 10px -5px var(--primary-color);
 }
 
 .product__content {
@@ -15,12 +15,12 @@
 }
 
 .product__content h6 {
-    color: #f5b70a;
+    color: var(--primary-color);
     text-align: center;
 }
 
 .rating span i {
-    color: #f76e11;
+    color: var(--btn-color);
 }
 
 .rating {
@@ -28,11 +28,11 @@
 }
 
 .price {
-    color: #fff;
+    color: var(--default-color);
 }
 
 .price span {
-    color: #f5b70a;
+    color: var(--primary-color);
     font-size: 1.3rem;
     font-weight: 500;
 }
@@ -41,7 +41,7 @@
     width: 30px;
     height: 30px;
     border-radius: 5px;
-    background: #f76e11;
+    background: var(--btn-color);
     display: flex;
     align-items: center;
     justify-content: center;

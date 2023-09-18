@@ -33,7 +33,7 @@ const MenuPack = () => {
 
     return (
         <section>
-            <Container>
+            <Container className='mt-5'>
                 <Row>
                     <Col lg='12' className='text-center mb-4'>
                         <h3 className='menu__title'>Cardápio</h3>

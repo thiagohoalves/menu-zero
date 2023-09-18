@@ -3,22 +3,22 @@
 }
 
 .footer__link-title {
-    color: #fff;
+    color: var(--default-color);
 }
 
 .link__item {
     border: none;
     padding-left: 0;
     background: transparent;
-    color: #c4c4c4;
+    color: var(--p-color);
 }
 
 .link__item a {
-    color: #c4c4c4;
+    color: var(--p-color);
 }
 
 .footer__bottom {
-    background: #141124;
+    background: var(--secondary-color);
     padding: 10px 0px;
     text-align: center;
     margin-top: 50px;
