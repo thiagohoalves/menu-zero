@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    color: var(--body-light);
 }
 
 .single__feature span i {

@@ -8,7 +8,10 @@ import Testimonials from "../components/testimonials/Testimonials";
 import Download from "../components/download-section/Download";
 import Footer from "../components/footer/Footer";
 
+
 const Home = () => {
+
+
     return (
         <Fragment>
             <Header />
@@ -19,7 +22,8 @@ const Home = () => {
             <Testimonials />
             <Download />
             <Footer />
-        </Fragment>)
+        </Fragment>
+    )
 };
 
 export default Home;

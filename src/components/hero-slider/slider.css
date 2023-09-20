@@ -2,7 +2,7 @@
     padding: 7px 25px;
     border-radius: 5px;
     background: var(--btn-color);
-    color: var(--tertiary-color);
+    color: #f0f8ff;
     font-size: 0.9rem;
     margin-top: 30px;
 }

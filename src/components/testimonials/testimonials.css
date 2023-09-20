@@ -7,7 +7,13 @@
 
 .single__testimonial p {
     font-size: 1.2rem;
-    color: var(--default-color);
+    color: unset;
+    line-height: 1.4rem;
+}
+
+.single__testimonial h6 {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
     line-height: 1.4rem;
 }
 

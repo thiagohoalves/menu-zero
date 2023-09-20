@@ -1,7 +1,9 @@
 import React, { useRef } from "react";
 import './header.css'
 
-import { Container } from 'reactstrap'
+import { Container } from 'reactstrap';
+
+
 
 const navLinks = [
     {
@@ -76,7 +78,6 @@ const Header = () => {
                             <span className="badge">2</span>
                         </span>
                     </div>
-
                     <div className="mobile__menu">
                         <span>
                             <i class="ri-menu-line" onClick={menuToggle}></i>
@@ -87,6 +88,5 @@ const Header = () => {
         </header>
     )
 };
-console.log();
 
 export default Header;

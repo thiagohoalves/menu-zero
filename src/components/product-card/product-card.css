@@ -2,11 +2,10 @@
     background: var(--secondary-color);
     border-radius: 10px;
     cursor: pointer;
-    animation: animate 1s ease-in;
 }
 
 .single__product:hover {
-    box-shadow: 5px 5px 10px -5px var(--primary-color);
+    box-shadow: 5px 5px 10px -5px var(--btn-color);
 }
 
 .product__content {
@@ -28,11 +27,11 @@
 }
 
 .price {
-    color: var(--default-color);
+    color: var(--primary-color);
 }
 
 .price span {
-    color: var(--primary-color);
+    color: var(--btn-color);
     font-size: 1.3rem;
     font-weight: 500;
 }
@@ -46,6 +45,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    color: var(--body-light);
 }
 
 @keyframes animate {

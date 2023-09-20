@@ -2,19 +2,14 @@
     padding-bottom: 0;
 }
 
-.footer__link-title {
-    color: var(--default-color);
-}
-
 .link__item {
     border: none;
     padding-left: 0;
     background: transparent;
-    color: var(--p-color);
 }
 
-.link__item a {
-    color: var(--p-color);
+.link__item {
+    color: unset;
 }
 
 .footer__bottom {
@@ -27,6 +22,7 @@
 .footer__bottom p {
     font-size: 0.9rem;
     margin-bottom: 0;
+    color: var(--primary-color);
 }
 
 

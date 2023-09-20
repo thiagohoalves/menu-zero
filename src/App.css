@@ -12,18 +12,22 @@
 }
 
 :root {
-  --body-color: #fff;
+  --body-light: #f0f8ff;
+  --body-dark: #040D12;
   --primary-color: #882222;
-  --secondary-color: #DAD4B5;
-  --tertiary-color: #f5f5f5;
+  --secondary-color: #E9B824;
   --btn-color: #ca2812;
-  --p-color: #000;
-  --default-color: #9b8f68;
 }
 
-body,
-html {
-  background: var(--body-color);
+
+#light {
+  background-color: var(--body-light);
+  color: var(--body-dark);
+}
+
+#dark {
+  background-color: var(--body-dark);
+  color: var(--body-light);
 }
 
 section,
@@ -41,7 +45,6 @@ h2 {
 
 p {
   font-size: 1rem;
-  color: var(--p-color);
   line-height: 30px;
   font-family: "Rubik", sans-serif;
 }
@@ -51,8 +54,8 @@ a {
   color: unset;
 }
 
-i {
-  color: var(--tertiary-color);
+button {
+  color: var(--body-light);
 }
 
 @media only screen and (max-width: 767px) {
