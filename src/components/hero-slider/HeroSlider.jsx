@@ -14,7 +14,7 @@ const HeroSlider = () => {
         autoplay: true,
         autplaySpeed: 3000
     }
-    return <section>
+    return <section className='slider'>
         <Container>
             <Slider { ...settings}>
                 {

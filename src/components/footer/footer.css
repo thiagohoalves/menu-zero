@@ -1,5 +1,11 @@
 .footer {
+    padding: 0px 0px;
+    margin-top: 50px;
+}
+
+.footer__row {
     padding-bottom: 0;
+    justify-content: center !important;
 }
 
 .link__item {
@@ -38,6 +44,11 @@
 
     .logo p {
         font-size: 0.8rem;
+    }
+
+    .footer__row {
+        flex-direction: column;
+        justify-content: center !important;
     }
 
     .footer__bottom p {

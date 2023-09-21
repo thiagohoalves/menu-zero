@@ -45,19 +45,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer__top">
                 <Container>
-                    <Row>
-                        <Col lg='4' md='4' sm='6'>
-                            <div className="logo">
-                                <h2 className="d-flex align-items-center gap-1 mb-4">
-                                    <span>
-                                        <i class="ri-restaurant-2-line"></i>
-                                    </span>{" "}
-                                    Chef Food
-                                </h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus libero dolor quo delectus totam porro?</p>
-                            </div>
-                        </Col>
-
+                    <Row className='footer__row'>
                         <Col lg='3' md='4' sm='6'>
                             <h5 className="footer__link-title">
                                 Quick Links
@@ -72,7 +60,7 @@ const Footer = () => {
                             </ListGroup>
                         </Col>
 
-                        <Col lg='2' md='4' sm='6'>
+                        <Col lg='3' md='4' sm='6'>
                             <h5 className="footer__link-title">Info Links</h5>
 
                             <ListGroup>

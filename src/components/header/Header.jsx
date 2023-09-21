@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import './header.css'
 
 import { Container } from 'reactstrap';
-
+import logoImg from '../../assets/images/logo3.png'
 
 
 const navLinks = [
@@ -11,15 +11,7 @@ const navLinks = [
         url: '#'
     },
     {
-        display: 'Sobre',
-        url: '#'
-    },
-    {
         display: 'Cardápio',
-        url: '#'
-    },
-    {
-        display: 'Descrição',
         url: '#'
     },
     {
@@ -38,13 +30,9 @@ const Header = () => {
         <header className="header">
             <Container>
                 <div className="navigation">
+
                     <div className="logo">
-                        <h2 className=" d-flex align-items-center gap-1">
-                            <span>
-                                <i class="ri-restaurant-2-line"></i>
-                            </span>{" "}
-                            Chef Food
-                        </h2>
+                        <img src={logoImg} alt="" />
                     </div>
 
                     <div className="nav__menu" ref={menuRef}>
@@ -70,8 +58,14 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
-
                     <div>
+                        <span>
+                            <button className="user__btn"> Login
+                            <i class="ri-account-circle-fill"></i>
+                            </button>
+                        </span>
+                    </div>
+                    <div className="cart__menu">
                         <span className="cart__icon">
                             <i class="ri-shopping-basket-line"></i>
 

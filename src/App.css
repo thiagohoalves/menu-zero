@@ -14,9 +14,9 @@
 :root {
   --body-light: #f0f8ff;
   --body-dark: #040D12;
-  --primary-color: #882222;
-  --secondary-color: #E9B824;
-  --btn-color: #ca2812;
+  --primary-color: #f7d5a5;
+  --secondary-color: #fb74bb;
+  --btn-color: #7f374b;
 }
 
 
@@ -32,7 +32,7 @@
 
 section,
 footer {
-  padding: 70px 0px;
+  padding: 90px 0px;
 }
 
 h1,
